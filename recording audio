@@ -1,0 +1,2 @@
+pulseaudio --start
+ffmpeg -f pulse -i default -t 60 output.wav
